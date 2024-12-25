@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/static/style.css">
+  <title>Endless Refresh</title>
+</head>
+<body>
+  <div class="refresh-container">
+    <h1 class="title">Refreshing the Page...</h1>
+    <div class="spinner"></div>
+  </div>
+  <script>
+    // JavaScript for auto-refresh
+    setTimeout(() => {
+      window.location.reload();
+    }, 5000); // Refresh every 5 seconds
+  </script>
+</body>
+</html>
